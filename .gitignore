@@ -1,0 +1,16 @@
+# Local credentials and secrets
+config.h
+secrets.h
+.env
+.env.*
+
+# Arduino / PlatformIO build artifacts
+.pio/
+build/
+.cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+*~
