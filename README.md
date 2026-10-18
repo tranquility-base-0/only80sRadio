@@ -34,11 +34,11 @@ Please support the people bringing the music to us. Great radio doesn't run on n
 
 ## Hardware
 
-- LOLIN/WEMOS ESP32-S2 Mini
-- I2S-compatible DAC or amplifier
-- Speaker compatible with the selected amplifier
+- LOLIN/WEMOS ESP32-S2 Mini (any ESP32 will work but pin mapping may vary).
+- I2S-compatible DAC or amplifier (in the pictured prototype a MAX98357A is used).
+- Speaker compatible with the selected amplifier (e.g., a 3W 4Ω speaker).
 - Suggested power supply: rechargeable 3.7V Li-ion battery with a compatible
-  charging/boost module. (In our prototype we use an XL-LBC3.1 module.)
+  charging/boost module (the prototype uses an XL-LBC3.1 module).
 
 ### I2S wiring
 
