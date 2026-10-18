@@ -1,5 +1,13 @@
 # only80sRadio 📻
 
+## (One possible way to do it)
+
+<p align="center">
+  <img src="radio80-0001.jpg" alt="only80sRadio — project photo 1" width="32%">
+  <img src="radio80-0003.jpg" alt="only80sRadio — project photo 2" width="32%">
+  <img src="radio80-0004.jpg" alt="only80sRadio — project photo 3" width="32%">
+</p>
+
 ## The 80s. Wi-Fi. No musical compromises.
 
 **Because 80s music is the only kind of music.** Everything else is just a temporary deviation from the beat.
