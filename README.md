@@ -10,7 +10,7 @@
 
 only80sRadio is an ESP32-S2 Mini internet-radio hardware project built around the glorious sounds of the 1980s. It connects over Wi-Fi and streams audio to an I2S-compatible DAC or amplifier. The photos illustrate one possible hardware setup.
 
-**UPDATE** In beta-testing we found out there may be other kinds of music besides 80s music. So, go ahead and tune your only80sRadio to a non-80s radio station if you are one of those people.
+**[UPDATE]** — In beta testing we found out there may be other kinds of music besides 80s music. So, go ahead and tune your only80sRadio to a non-80s radio station if you are one of those people.
 
 ## The music comes from SomaFM
 
@@ -20,7 +20,7 @@ The prototype is currently configured for **SomaFM Underground 80s**.
 The channel is hardcoded into the firmware because, until recently, we
 did not know there were other kinds of music besides 80s music. I guess
 feel free to change the channel URL in the code if you're one of those
-people. Browse the other channels at [SomaFM](https://somafm.com/).
+people.
 
 - **Explore the channels:** [SomaFM](https://somafm.com/)
 - **Choose a station and listen** on SomaFM's official site.
@@ -76,4 +76,4 @@ Third-party libraries remain subject to their own licenses. This repository is n
 
 **80s forever. Wi-Fi wherever.**
 
-Explore new sounds, support independent radio, and never apologize for your musical standards.
+Explore new sounds, even non-80s ones. Support independent radio, and never apologize for your musical standards.
