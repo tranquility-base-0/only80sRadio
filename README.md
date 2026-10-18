@@ -1,32 +1,32 @@
 # only80sRadio 📻
 
-## (One possible way to do it)
-
 <p align="center">
   <img src="radio80-0001.jpg" alt="only80sRadio — project photo 1" width="32%">
   <img src="radio80-0003.jpg" alt="only80sRadio — project photo 2" width="32%">
   <img src="radio80-0004.jpg" alt="only80sRadio — project photo 3" width="32%">
 </p>
 
-## The 80s. Wi-Fi. No musical compromises.
+## Because 80s music is the only kind of music.
 
-**Because 80s music is the only kind of music.** Everything else is just a temporary deviation from the beat.
+only80sRadio is an ESP32-S2 Mini internet-radio hardware project built around the glorious sounds of the 1980s. It connects over Wi-Fi and streams audio to an I2S-compatible DAC or amplifier. The photos illustrate one possible hardware setup.
 
-only80sRadio is an ESP32-S2 Mini internet-radio hardware project built around the glorious sounds of the 1980s. It connects over Wi-Fi and streams audio to an I2S-compatible DAC or amplifier.
-
-The mission is simple: less scrolling, fewer distractions, more synths, more guitars, and more 80s.
+**UPDATE** In beta-testing we found out there may be other kinds of music besides 80s music. So, go ahead and tune your only80sRadio to a non-80s radio station if you are one of those people.
 
 ## The music comes from SomaFM
 
 This project features **[SomaFM](https://somafm.com/)**, the independent, listener-supported, commercial-free internet radio service. SomaFM's DJs and music directors curate a wide variety of channels for people who love discovering great music.
 
-The prototype is currently configured for **SomaFM Underground 80s**. The firmware does not yet include an on-device station selector.
+The prototype is currently configured for **SomaFM Underground 80s**.
+The channel is hardcoded into the firmware because, until recently, we
+did not know there were other kinds of music besides 80s music. I guess
+feel free to change the channel URL in the code if you're one of those
+people. Browse the other channels at [SomaFM](https://somafm.com/).
 
-Want to explore beyond the 80s? We won't hold it against you.
-
-- **Explore the channels:** [somafm.com](https://somafm.com/)
-- **Choose a station and listen on SomaFM's official site.**
-- **Support the music:** [Donate to SomaFM](https://somafm.com/support/donate.html). SomaFM depends on listener support to keep its commercial-free radio service on the air.
+- **Explore the channels:** [SomaFM](https://somafm.com/)
+- **Choose a station and listen** on SomaFM's official site.
+- **Support the music:** [Donate to SomaFM](https://somafm.com/support/donate.html).
+  SomaFM depends on listener support to keep its commercial-free radio
+  service on the air.
 
 Please support the people bringing the music to us. Great radio doesn't run on nostalgia alone.
 
@@ -37,6 +37,8 @@ Please support the people bringing the music to us. Great radio doesn't run on n
 - LOLIN/WEMOS ESP32-S2 Mini
 - I2S-compatible DAC or amplifier
 - Speaker compatible with the selected amplifier
+- Suggested power supply: rechargeable 3.7V Li-ion battery with a compatible
+  charging/boost module. (In our prototype we use an XL-LBC3.1 module.)
 
 ### I2S wiring
 
