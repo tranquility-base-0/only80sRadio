@@ -1,0 +1,24 @@
+// only80sRadio — local configuration example
+//
+// Copy this file to config.h (same directory) and replace every
+// YOUR_* placeholder with a real value. config.h is git-ignored and
+// must never be committed. The sketch refuses to start if any required
+// configuration value is unset, empty, or still begins with YOUR_*.
+#pragma once
+
+// --- Wi-Fi ---------------------------------------------------------------
+static const char* WIFI_SSID     = "YOUR_WIFI_SSID";
+static const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
+
+// --- Station -------------------------------------------------------------
+// Any HTTP MP3 stream URL you have the right to listen to.
+// Do not configure a station you are not permitted to use.
+static const char* STATION_URL  = "YOUR_STATION_URL";
+static const char* STATION_NAME = "YOUR_STATION_NAME";
+
+// --- HTTP User-Agent -----------------------------------------------------
+// Sent with every stream request, including automatic reconnect requests.
+// Keep it unique to this player and provider-neutral; do not name a
+// stream provider here.
+static const char* PLAYER_USER_AGENT =
+    "only80sRadio/1.0 (+https://github.com/tranquility-base-0/only80sRadio)";
