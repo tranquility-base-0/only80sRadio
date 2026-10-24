@@ -6,9 +6,7 @@
   <img src="radio80-0004.jpg" alt="only80sRadio — project photo 3" width="32%">
 </p>
 
-A generic ESP32-S2 internet radio: it connects to Wi-Fi and plays any
-HTTP MP3 stream **you** configure. The project ships with no station
-configured and no station URL in the repository — you bring your own.
+only80sRadio is a minimal internet radio designed to solve the decades-old problem of radios playing non-80s music. While modern radios come with a tuner, which means you have to manually tune a dial yourself until you finally find the 80s channel, only80sRadio is always pre-tuned to the 80s station. Just flip the ON switch and the radio knows EXACTLY what you came for. only80sRadio connects to Wi-Fi and plays the HTTP MP3 stream of your choice. In theory, it could even play non-80s music streams if you want, but that's crazy talk! Get creative with the enclosure. We made a prototype out of an empty gum container (see photos).
 
 ## Hardware
 
